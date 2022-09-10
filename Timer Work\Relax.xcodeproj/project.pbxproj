@@ -56,15 +56,55 @@
 		2AF9CEF828CCD3DC00B3EE23 /* Timer Work\Relax */ = {
 			isa = PBXGroup;
 			children = (
-				2AF9CEF928CCD3DC00B3EE23 /* AppDelegate.swift */,
-				2AF9CEFB28CCD3DC00B3EE23 /* SceneDelegate.swift */,
-				2AF9CEFD28CCD3DC00B3EE23 /* ViewController.swift */,
-				2AF9CEFF28CCD3DC00B3EE23 /* Main.storyboard */,
-				2AF9CF0228CCD3DD00B3EE23 /* Assets.xcassets */,
-				2AF9CF0428CCD3DD00B3EE23 /* LaunchScreen.storyboard */,
-				2AF9CF0728CCD3DD00B3EE23 /* Info.plist */,
+				2AF9CF0D28CCD8B100B3EE23 /* Resources */,
+				2AF9CF0F28CCD90E00B3EE23 /* Sources */,
 			);
 			path = "Timer Work\\Relax";
+			sourceTree = "<group>";
+		};
+		2AF9CF0D28CCD8B100B3EE23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9CF0228CCD3DD00B3EE23 /* Assets.xcassets */,
+				2AF9CF0E28CCD8D500B3EE23 /* Configuration */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2AF9CF0E28CCD8D500B3EE23 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9CF0728CCD3DD00B3EE23 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2AF9CF0F28CCD90E00B3EE23 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9CF1028CCD95C00B3EE23 /* Storyboards */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2AF9CF1028CCD95C00B3EE23 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9CF0428CCD3DD00B3EE23 /* LaunchScreen.storyboard */,
+				2AF9CEFF28CCD3DC00B3EE23 /* Main.storyboard */,
+				2AF9CF1128CCD97800B3EE23 /* App */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2AF9CF1128CCD97800B3EE23 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9CEFB28CCD3DC00B3EE23 /* SceneDelegate.swift */,
+				2AF9CEF928CCD3DC00B3EE23 /* AppDelegate.swift */,
+				2AF9CEFD28CCD3DC00B3EE23 /* ViewController.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +331,6 @@
 				INFOPLIST_FILE = "Timer Work\\Relax/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +357,6 @@
 				INFOPLIST_FILE = "Timer Work\\Relax/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
