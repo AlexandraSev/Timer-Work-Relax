@@ -8,12 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    private lazy var isStarted = true
+    private lazy var isWorkTime = true
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .white
+        setupHierarchy()
+        setupLayout()
     }
-
-
-}
+    
+    // MARK: - Setup
+    private func setupHierarchy() {
+    }
+    
+    private func setupLayout() {
+        }
+            }
 
